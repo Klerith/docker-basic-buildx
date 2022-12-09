@@ -12,7 +12,7 @@ npm start
 # Comandos importantes usados aquí
 
 ## BUILDX
-(Buildx Referencia)[https://docs.docker.com/build/building/multi-platform/#getting-started]
+[Buildx Referencia](https://docs.docker.com/build/building/multi-platform/#getting-started)
 ```
 # docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 \
 #    -t klerith/cron-ticker:latest --push .
