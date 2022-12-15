@@ -8,7 +8,7 @@
 FROM node:19.2-alpine3.16
 
 # cd app
-WORKDIR /app
+WORKDIR  /app
 
 # Dest /app
 COPY package.json ./
